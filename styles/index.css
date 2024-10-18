@@ -1,0 +1,76 @@
+@media screen and (max-width:480px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+        
+    }
+
+    .enter-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .enter-img{
+        width: 90%;
+        height: 60%;
+        margin: 40% 0% 0% 7%;
+    }
+
+    .enter-welcome{
+        display: flex;
+        justify-content: center;
+        margin: 0% 0% 3% 0%;
+    }
+
+    .enter-button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enter-login-button{
+        width: 300px;
+        height: 35px;
+        margin-top: 10%;
+        margin-left: 12%;
+        border-radius: 20px;
+        background-color:#c334eb;
+        border-color: #c334eb;
+        color: white;
+
+    }
+
+    .enter-signin-button{
+        width: 300px;
+        height: 35px;
+        margin-left: 12%;
+        margin-top: 5%;
+        border-radius: 20px;
+        background-color: #c334eb;
+        border-color: #c334eb;
+        color: white;
+
+    }
+
+    .enter-some-content{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30%;
+    }
+
+    .enter-s-content{
+        margin-top: 10%;
+    }
+
+    .some-content-link{
+        color: black;
+        text-decoration: none;
+        margin-left: 3%;
+        margin-top: 9%;
+        font-size: small;
+    }
+
+
+
+
+};
