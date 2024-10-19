@@ -4,6 +4,16 @@
         margin: 0%;
     }
 
+    .login-next-page-arrow{
+        margin: 5% 0% 0% 7%;
+    }
+
+    .login-arrow-back{
+        text-decoration: none;
+        color: #c334eb;
+        font-size: xx-large;
+    }
+
     .login-img{
         width: 90%;
         height: 60%;
@@ -11,18 +21,18 @@
     }
 
     .login-name{
-        font-size: x-large;
-        margin: 20% 0% 0% 35%;
+        font-size: large;
+        margin: 10% 0% 0% 33%;
     }
 
     .login-name-content-1{
-        margin-bottom: 5%;
         margin-right: 10%;
     }
 
     .login-name-content-2{
-        margin-right: 40%;
         color: #c334eb;
+        font-size: x-small;
+        margin-left: 2%;
     }
 
 
@@ -70,12 +80,13 @@
 
     .login-some-content{
         margin-top: 7%;
-        margin-left: 25%;
+        margin-left: 30%;       
     }
 
     .login-forget-password-link{
         text-decoration: none;
         color: black;
+        font-size: x-small;
 
     }
 
@@ -83,6 +94,7 @@
         text-decoration: none;
         margin-left: 3%;
         color: black;
+
     }
 
 
