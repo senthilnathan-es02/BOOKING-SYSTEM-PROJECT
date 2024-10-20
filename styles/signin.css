@@ -7,12 +7,14 @@
     .next-page-go-button{
         margin-top: 5%;
         margin-left: 7%;
+        
     }
 
   .signin-arrow-back{
     text-decoration: none;
     color: #c334eb ;
     font-size: xx-large;
+    cursor: pointer;
     
     
   }
@@ -43,6 +45,7 @@
     border-color: #c334eb;
     margin-bottom: 8%;
     margin-top: 2%;
+    cursor: pointer;
   }
 
   .signin-input-e-mail{
@@ -52,6 +55,7 @@
     border-color: #c334eb;
     margin-bottom: 8%;
     margin-top: 2%;
+    cursor: pointer;
   }
 
   .signin-input-password{
@@ -61,6 +65,7 @@
     border-color: #c334eb;
     margin-bottom: 8%;
     margin-top: 2%;
+    cursor: pointer;
   }
 
   .signin-input-d-b{
@@ -70,6 +75,7 @@
     border-color: #c334eb;
     margin-bottom: 8%;
     margin-top: 2%;
+    cursor: pointer;
   }
 
   .signin-button{
@@ -81,6 +87,7 @@
     margin-left: 42px;
     margin-top: 8%;
     border-color: #c334eb;
+    cursor: pointer;
   }
 
   
