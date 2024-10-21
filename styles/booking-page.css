@@ -5,6 +5,12 @@
         overflow-x: hidden;
     }
 
+    body{
+        background-image: url(../assests/image/placing-booking-background.jpeg);
+        background-repeat: no-repeat;
+
+    }
+
     .booking-page-container{
         width: 100%;
         height: 100%;
@@ -21,7 +27,7 @@
 
     .booking-page-icon{
         color: black;
-        margin-left: 5%;
+        margin-left: 7%;
         margin-top: 1%;
         margin-top: 5%;
     }
@@ -33,7 +39,7 @@
         font-family: cursive;
         color: white;
         margin-bottom: 5%;
-        margin-top: 3%;
+        margin-top: 5%;
     }
 
     .booking-page-settings{
@@ -45,7 +51,7 @@
     .booking-page-heading-content{
         text-align: center;
         margin-top: 20%;
-        font-size: large;
+        font-size: small;
     }
 
     .booking-page-content-two{
@@ -81,7 +87,9 @@
         padding: 20px 0px 10px 40px; 
         border: 2px solid  #c334eb;
         border-radius: 15px;
+        margin-bottom: 3%;
         font-size: 16px;
+        background-color: whitesmoke;
     }
     
     .input-container input:focus {
@@ -92,7 +100,7 @@
     .search-aero-button{
         width: 320px;
         height: 50px;
-        margin-top: 15%;
+        margin-top: 17%;
         margin-left: 7%;
         background-color: #c334eb;
         border-color: #c334eb;
@@ -101,48 +109,38 @@
         border-radius: 15px;
     }
 
-    .booking-page-footer{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        background-color: #c334eb;
-        margin-top: 60%;
-    } 
 
-    .icon-container{
-        margin-right: 15%;
-        margin-left: 10%;
-    }
-
-    .booking-page-footer-home{
-        color: black;
-        margin-left: 0%;
-        font-size: xx-large;
-    }
-
-    .booking-page-footer-language{
-        color: black;
-        margin-left: 0%;
-        font-size: xx-large;
-    }
-
-    .booking-page-footer-location{
-        color: black;
-        margin-left: 0%;
-        font-size: xx-large;
+.booking-page-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #c334eb;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
 
-.booking-page-footer-profile{
-    color: black;
-    margin-left: 0%;
-    font-size: xx-large;
+.icon-container {
+    text-align: center;
 }
 
-.booking-page-footer-icon-name{
-    margin-bottom: 5%;
+.icon-container i {
+    font-size: 24px;
+    color: #333;
+}
+
+.icon-container h6 {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.booking-page-container {
+    padding-bottom: 70px;
+}
     
-}
-
 
 }
